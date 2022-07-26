@@ -1,5 +1,8 @@
 # alpine-chrome
+
 Chrome headless docker images
+
+Available on [docker hub](https://hub.docker.com/repository/docker/vanrijn/alpine-chrome)
 
 ## update instructions
 
