@@ -16,7 +16,7 @@ docker login
 
 docker buildx create --use
 
-docker buildx build --platform=linux/amd64,linux/arm64 --push -t vanrijn/alpine-chrome:102-with-node-14 .
+docker buildx build --platform=linux/amd64,linux/arm64 --push -t vanrijn/alpine-chrome:108-with-node-14 .
 
 docker buildx build --platform=linux/amd64,linux/arm64 --push -t vanrijn/alpine-chrome:latest .
 ```
